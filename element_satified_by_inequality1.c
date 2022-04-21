@@ -38,7 +38,7 @@ int main()
 	for(int i = 0;i<n;i++)
 	{
 		scanf("%d%d%d%d%d%d",&x[i][0],&x[i][1],&x[i][2],&y[i][0],&y[i][1],&y[i][2]);
-		checking(x,y,a,&p[i],i);
+		checking(x,y,a,&p[0],i);
 	} 
 	for(int i = 0;i<n;i++)
 	{
